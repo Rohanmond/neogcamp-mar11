@@ -13,7 +13,7 @@ hr {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    text-align: center;
 }
 
 /* body h1 div class are selectors*/
@@ -149,4 +149,25 @@ body {
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+label{
+    display: block;
+    padding: 1rem;
+}
+#check-number-btn{
+    background-color:var(--dark-gray); /* Green */
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5rem;
+  font-size: 1rem;
+  margin-top: 2rem ;
+}
+#output-box{
+    padding: 2rem;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
