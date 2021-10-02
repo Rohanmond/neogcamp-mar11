@@ -171,3 +171,7 @@ label{
     font-size: larger;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+footer{
+    /* padding: 1rem; */
+    color: #6B7280;
+}
